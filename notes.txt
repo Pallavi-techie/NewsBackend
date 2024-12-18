@@ -1,0 +1,29 @@
+URLs to hit api : 
+
+1. GET /category - http://localhost:3002/api/category
+2. GET /news/live/:category - http://localhost:3002/api/news/live/technology
+
+
+POST
+
+3. /create/category - 
+
+http://localhost:3002/api/create/category
+JSON : 
+
+{
+    "category": "sports",
+    "description": "Articles related to sports"
+}
+
+
+4. /create/news - http://localhost:3002/api/create/news
+JSON:
+{
+    "title": "The FIFA World Cup Highlights",
+    "description": "Exciting moments from the World Cup.",
+    "url": "https://example.com/world-cup",
+    "category": "sports",
+    "publishedAt": "2024-12-14T10:00:00.000Z",
+    "author": "Sports Writer"
+}
